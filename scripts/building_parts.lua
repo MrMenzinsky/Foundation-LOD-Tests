@@ -1,6 +1,6 @@
 local mod = ...
 
-local filename = "placeholder_props.fbx"
+local filename = "LOD-traffic-lights.fbx"
 
 mod:registerAssetProcessor("models/" .. filename, {
     DataType = "BUILDING_ASSET_PROCESSOR"

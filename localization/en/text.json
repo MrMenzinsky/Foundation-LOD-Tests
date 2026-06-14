@@ -1,6 +1,6 @@
 {
   "MONUMENT": {
-    "MONUMENT_NAME": "LOD traffc light monument",
+    "MONUMENT_NAME": "LOD traffic light monument",
     "MONUMENT_DESC": "A placeholder monument."
   },
 
@@ -114,11 +114,11 @@
   },
   "Experiment_37_PART": {
     "EXPERIMENT_37_PART_NAME": "Experiment 37 Part",
-    "EXPERIMENT_37_PART_DESC": "LOD traffic light 37: tests multiple LOD_01, LOD_1, LOD_23, LOD_4 without suffix names. (Combined firsts + overlapping singles (LOD_1), combined middles, then singles at end.)"
+    "EXPERIMENT_37_PART_DESC": "LOD traffic light 37: tests single LOD_01, LOD_1, LOD_23, LOD_4 with suffix names. (Combined first + overlapping single (LOD_1), combined middle, then single at end.)"
   },
   "Experiment_38_PART": {
     "EXPERIMENT_38_PART_NAME": "Experiment 38 Part",
-    "EXPERIMENT_38_PART_DESC": "LOD traffic light 38: tests multiple LOD_01, LOD_2, LOD_23, LOD_4 without suffix names. (Combined firsts, overlapping singles (LOD_2) + combined middles, then singles at end.)"
+    "EXPERIMENT_38_PART_DESC": "LOD traffic light 38: tests single LOD_01, LOD_2, LOD_23, LOD_4 with suffix names. (Combined first, overlapping single (LOD_2) + combined middle, then single at end.)"
   },
 
 
@@ -153,10 +153,10 @@
   },
   "Experiment_47_PART": {
     "EXPERIMENT_47_PART_NAME": "Experiment 47 Part",
-    "EXPERIMENT_47_PART_DESC": "LOD traffic light 47: tests multiple LOD_01, LOD_1, LOD_23, LOD_4 without suffix names. (Combined firsts + overlapping singles (LOD_1), combined middles, then singles at end.)"
+    "EXPERIMENT_47_PART_DESC": "LOD traffic light 47: tests multiple LOD_01, LOD_1, LOD_23, LOD_4 with suffix names. (Combined firsts + overlapping singles (LOD_1), combined middles, then singles at end.)"
   },
   "Experiment_48_PART": {
     "EXPERIMENT_48_PART_NAME": "Experiment 48 Part",
-    "EXPERIMENT_48_PART_DESC": "LOD traffic light 48: tests multiple LOD_01, LOD_2, LOD_23, LOD_4 without suffix names. (Combined firsts, overlapping singles (LOD_2) + combined middles, then singles at end.)"
+    "EXPERIMENT_48_PART_DESC": "LOD traffic light 48: tests multiple LOD_01, LOD_2, LOD_23, LOD_4 with suffix names. (Combined firsts, overlapping singles (LOD_2) + combined middles, then singles at end.)"
   }
 }
