@@ -1,0 +1,162 @@
+{
+  "MONUMENT": {
+    "MONUMENT_NAME": "LOD traffc light monument",
+    "MONUMENT_DESC": "A placeholder monument."
+  },
+
+
+
+  "Experiment_10_PART": {
+    "EXPERIMENT_10_PART_NAME": "Experiment 10 Part",
+    "EXPERIMENT_10_PART_DESC": "LOD traffic light 10: tests single LOD_0, LOD_1, LOD_2, LOD_3, LOD_4 without suffix names. (One of each.)"
+  },
+  "Experiment_11_PART": {
+    "EXPERIMENT_11_PART_NAME": "Experiment 11 Part",
+    "EXPERIMENT_11_PART_DESC": "LOD traffic light 11: tests single LOD_01, LOD_23, LOD_4 without suffix names. (Combined first two, then single at end.)"
+  },
+  "Experiment_12_PART": {
+    "EXPERIMENT_12_PART_NAME": "Experiment 12 Part",
+    "EXPERIMENT_12_PART_DESC": "LOD traffic light 12: tests single LOD_01, LOD_2, LOD_34 without suffix names. (Combined first, single in middle, combined at end.)"
+  },
+  "Experiment_13_PART": {
+    "EXPERIMENT_13_PART_NAME": "Experiment 13 Part",
+    "EXPERIMENT_13_PART_DESC": "LOD traffic light 13: tests single LOD_01, LOD_2, LOD_3, LOD_4 without suffix names. (Combined first, rest singles.)"
+  },
+  "Experiment_14_PART": {
+    "EXPERIMENT_14_PART_NAME": "Experiment 14 Part",
+    "EXPERIMENT_14_PART_DESC": "LOD traffic light 14: tests single LOD_0, LOD_1, LOD_2, LOD_34 without suffix names. (Single first three, combined at end.)"
+  },
+  "Experiment_15_PART": {
+    "EXPERIMENT_15_PART_NAME": "Experiment 15 Part",
+    "EXPERIMENT_15_PART_DESC": "LOD traffic light 15: tests single LOD_0, LOD_1, LOD_2 without suffix names. (Gap at end.)"
+  },
+  "Experiment_16_PART": {
+    "EXPERIMENT_16_PART_NAME": "Experiment 16 Part",
+    "EXPERIMENT_16_PART_DESC": "LOD traffic light 16: tests single LOD_0, LOD_1, LOD_3, LOD_4 without suffix names. (Gap in middle.)"
+  },
+  "Experiment_17_PART": {
+    "EXPERIMENT_17_PART_NAME": "Experiment 17 Part",
+    "EXPERIMENT_17_PART_DESC": "LOD traffic light 17: tests single LOD_01, LOD_1, LOD_23, LOD_4 without suffix names. (Combined first + overlapping single (LOD_1), combined middle, then single at end.)"
+  },
+  "Experiment_18_PART": {
+    "EXPERIMENT_18_PART_NAME": "Experiment 18 Part",
+    "EXPERIMENT_18_PART_DESC": "LOD traffic light 18: tests single LOD_01, LOD_2, LOD_23, LOD_4 without suffix names. (Combined first, overlapping single (LOD_2) + combined middle, then single at end.)"
+  },
+
+
+
+  "Experiment_20_PART": {
+    "EXPERIMENT_20_PART_NAME": "Experiment 20 Part",
+    "EXPERIMENT_20_PART_DESC": "LOD traffic light 20: tests multiple LOD_0, LOD_1, LOD_2, LOD_3, LOD_4 without suffix names. (Two of each.)"
+  },
+  "Experiment_21_PART": {
+    "EXPERIMENT_21_PART_NAME": "Experiment 21 Part",
+    "EXPERIMENT_21_PART_DESC": "LOD traffic light 21: tests multiple LOD_01, LOD_23, LOD_4 without suffix names. (Combined first twos, then singles at end.)"
+  },
+  "Experiment_22_PART": {
+    "EXPERIMENT_22_PART_NAME": "Experiment 22 Part",
+    "EXPERIMENT_22_PART_DESC": "LOD traffic light 22: tests multiple LOD_01, LOD_2, LOD_34 without suffix names. (Combined firsts, singles in middle, combined at end.)"
+  },
+  "Experiment_23_PART": {
+    "EXPERIMENT_23_PART_NAME": "Experiment 23 Part",
+    "EXPERIMENT_23_PART_DESC": "LOD traffic light 23: tests multiple LOD_01, LOD_2, LOD_3, LOD_4 without suffix names. (Combined first, rest singles.)"
+  },
+  "Experiment_24_PART": {
+    "EXPERIMENT_24_PART_NAME": "Experiment 24 Part",
+    "EXPERIMENT_24_PART_DESC": "LOD traffic light 24: tests multiple LOD_0, LOD_1, LOD_2, LOD_34 without suffix names. (Singles first three, combined at end.)"
+  },
+  "Experiment_25_PART": {
+    "EXPERIMENT_25_PART_NAME": "Experiment 25 Part",
+    "EXPERIMENT_25_PART_DESC": "LOD traffic light 25: tests multiple LOD_0, LOD_1, LOD_2 without suffix names. (Gap at end.)"
+  },
+  "Experiment_26_PART": {
+    "EXPERIMENT_26_PART_NAME": "Experiment 26 Part",
+    "EXPERIMENT_26_PART_DESC": "LOD traffic light 26: tests multiple LOD_0, LOD_1, LOD_3, LOD_4 without suffix names. (Gap in middle.)"
+  },
+  "Experiment_27_PART": {
+    "EXPERIMENT_27_PART_NAME": "Experiment 27 Part",
+    "EXPERIMENT_27_PART_DESC": "LOD traffic light 27: tests multiple LOD_01, LOD_1, LOD_23, LOD_4 without suffix names. (Combined firsts + overlapping singles (LOD_1), combined middles, then singles at end.)"
+  },
+  "Experiment_28_PART": {
+    "EXPERIMENT_28_PART_NAME": "Experiment 28 Part",
+    "EXPERIMENT_28_PART_DESC": "LOD traffic light 28: tests multiple LOD_01, LOD_2, LOD_23, LOD_4 without suffix names. (Combined firsts, overlapping singles (LOD_2) + combined middles, then singles at end.)"
+  },
+
+
+  
+  "Experiment_30_PART": {
+    "EXPERIMENT_30_PART_NAME": "Experiment 30 Part",
+    "EXPERIMENT_30_PART_DESC": "LOD traffic light 30: tests single LOD_0, LOD_1, LOD_2, LOD_3, LOD_4 with suffix names. (One of each.)"
+  },
+  "Experiment_31_PART": {
+    "EXPERIMENT_31_PART_NAME": "Experiment 31 Part",
+    "EXPERIMENT_31_PART_DESC": "LOD traffic light 31: tests single LOD_01, LOD_23, LOD_4 with suffix names. (Combined first two, then single at end.)"
+  },
+  "Experiment_32_PART": {
+    "EXPERIMENT_32_PART_NAME": "Experiment 32 Part",
+    "EXPERIMENT_32_PART_DESC": "LOD traffic light 32: tests single LOD_01, LOD_2, LOD_34 with suffix names. (Combined first, single in middle, combined at end.)"
+  },
+  "Experiment_33_PART": {
+    "EXPERIMENT_33_PART_NAME": "Experiment 33 Part",
+    "EXPERIMENT_33_PART_DESC": "LOD traffic light 33: tests single LOD_01, LOD_2, LOD_3, LOD_4 with suffix names. (Combined first, rest singles.)"
+  },
+  "Experiment_34_PART": {
+    "EXPERIMENT_34_PART_NAME": "Experiment 34 Part",
+    "EXPERIMENT_34_PART_DESC": "LOD traffic light 34: tests single LOD_0, LOD_1, LOD_2, LOD_34 with suffix names. (Single first three, combined at end.)"
+  },
+  "Experiment_35_PART": {
+    "EXPERIMENT_35_PART_NAME": "Experiment 35 Part",
+    "EXPERIMENT_35_PART_DESC": "LOD traffic light 35: tests single LOD_0, LOD_1, LOD_2 with suffix names. (Gap at end.)"
+  },
+  "Experiment_36_PART": {
+    "EXPERIMENT_36_PART_NAME": "Experiment 36 Part",
+    "EXPERIMENT_36_PART_DESC": "LOD traffic light 36: tests single LOD_0, LOD_1, LOD_3, LOD_4 with suffix names. (Gap in middle.)"
+  },
+  "Experiment_37_PART": {
+    "EXPERIMENT_37_PART_NAME": "Experiment 37 Part",
+    "EXPERIMENT_37_PART_DESC": "LOD traffic light 37: tests multiple LOD_01, LOD_1, LOD_23, LOD_4 without suffix names. (Combined firsts + overlapping singles (LOD_1), combined middles, then singles at end.)"
+  },
+  "Experiment_38_PART": {
+    "EXPERIMENT_38_PART_NAME": "Experiment 38 Part",
+    "EXPERIMENT_38_PART_DESC": "LOD traffic light 38: tests multiple LOD_01, LOD_2, LOD_23, LOD_4 without suffix names. (Combined firsts, overlapping singles (LOD_2) + combined middles, then singles at end.)"
+  },
+
+
+
+  "Experiment_40_PART": {
+    "EXPERIMENT_40_PART_NAME": "Experiment 40 Part",
+    "EXPERIMENT_40_PART_DESC": "LOD traffic light 40: tests multiple LOD_0, LOD_1, LOD_2, LOD_3, LOD_4 with suffix names. (Two of each.)"
+  },
+  "Experiment_41_PART": {
+    "EXPERIMENT_41_PART_NAME": "Experiment 41 Part",
+    "EXPERIMENT_41_PART_DESC": "LOD traffic light 41: tests multiple LOD_01, LOD_23, LOD_4 with suffix names. (Combined first twos, then singles at end.)"
+  },
+  "Experiment_42_PART": {
+    "EXPERIMENT_42_PART_NAME": "Experiment 42 Part",
+    "EXPERIMENT_42_PART_DESC": "LOD traffic light 42: tests multiple LOD_01, LOD_2, LOD_34 with suffix names. (Combined firsts, singles in middle, combined at end.)"
+  },
+  "Experiment_43_PART": {
+    "EXPERIMENT_43_PART_NAME": "Experiment 43 Part",
+    "EXPERIMENT_43_PART_DESC": "LOD traffic light 43: tests multiple LOD_01, LOD_2, LOD_3, LOD_4 with suffix names. (Combined first, rest singles.)"
+  },
+  "Experiment_44_PART": {
+    "EXPERIMENT_44_PART_NAME": "Experiment 44 Part",
+    "EXPERIMENT_44_PART_DESC": "LOD traffic light 44: tests multiple LOD_0, LOD_1, LOD_2, LOD_34 with suffix names. (Singles first three, combined at end.)"
+  },
+  "Experiment_45_PART": {
+    "EXPERIMENT_45_PART_NAME": "Experiment 45 Part",
+    "EXPERIMENT_45_PART_DESC": "LOD traffic light 45: tests multiple LOD_0, LOD_1, LOD_2 with suffix names. (Gap at end.)"
+  },
+  "Experiment_46_PART": {
+    "EXPERIMENT_46_PART_NAME": "Experiment 46 Part",
+    "EXPERIMENT_46_PART_DESC": "LOD traffic light 46: tests multiple LOD_0, LOD_1, LOD_3, LOD_4 with suffix names. (Gap in middle.)"
+  },
+  "Experiment_47_PART": {
+    "EXPERIMENT_47_PART_NAME": "Experiment 47 Part",
+    "EXPERIMENT_47_PART_DESC": "LOD traffic light 47: tests multiple LOD_01, LOD_1, LOD_23, LOD_4 without suffix names. (Combined firsts + overlapping singles (LOD_1), combined middles, then singles at end.)"
+  },
+  "Experiment_48_PART": {
+    "EXPERIMENT_48_PART_NAME": "Experiment 48 Part",
+    "EXPERIMENT_48_PART_DESC": "LOD traffic light 48: tests multiple LOD_01, LOD_2, LOD_23, LOD_4 without suffix names. (Combined firsts, overlapping singles (LOD_2) + combined middles, then singles at end.)"
+  }
+}

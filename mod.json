@@ -1,0 +1,6 @@
+{
+  "Name": "Foundation LOD Tests",
+  "Author": "IdleEngineer",
+  "Description": "A mod containing various variations of \"LOD-traffic light\" models. The models are used for testing the LOD system in Foundation to find out what works (and what doesn't) in Blender fbx exports using the community recommended workflow.",
+  "Version": "0.1.0"
+}
