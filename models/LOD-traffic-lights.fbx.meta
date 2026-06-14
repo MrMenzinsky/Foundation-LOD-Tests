@@ -1,0 +1,1272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<meta id="5ea03c35-e502-4388-a1b3-f1c3b6cc79b7">
+	<meta id="f7713a60-8d95-4602-b5e6-6edff83e7e48" type="group" folder="true" name="Materials">
+		<meta id="994ac154-2be9-4d08-888a-b3a82478e146" name="Green"/>
+		<meta id="c02fc3c8-6ee8-45ed-a491-cf9e64824af5" name="Cyan"/>
+		<meta id="0f3a6bdd-574c-4872-bf3b-cb85839af8de" name="Blue"/>
+		<meta id="acd5014e-68e8-4157-9926-6e8dbb05fbf6" name="Orange"/>
+		<meta id="386c18e4-2ce4-4ad7-8c4e-8665fcc11c49" name="Red"/>
+	</meta>
+	<meta id="8760bf58-2371-4abb-8a62-d9f73acda721" type="group" folder="true" name="Meshes">
+		<meta id="6e0d9723-f92a-4c89-8cf9-377440270891" name="Back_Block.001"/>
+		<meta id="6889bcbc-3b13-45a5-a3ef-8152faffb4b9" name="Pillar.001"/>
+		<meta id="0d84d984-b041-4d2e-b025-6655c11c39ac" name="Experiment_10_Part_LOD_0_Green"/>
+		<meta id="6cc701be-f32c-4148-8343-582e95e31092" name="Experiment_10_Part_LOD_1_Cyan"/>
+		<meta id="e47684df-f3e3-487d-86d0-1a93ed2f9e7c" name="Experiment_10_Part_LOD_2_Blue"/>
+		<meta id="68c70a5e-ef07-495f-9c9a-f3a9f61792b1" name="Experiment_10_Part_LOD_3_Orange"/>
+		<meta id="ff806750-656f-416d-a4d4-e413db3a10c7" name="Experiment_10_Part_LOD_4_Red"/>
+		<meta id="cc8f56f1-55ba-4358-ba38-31e09878d54a" name="Experiment_11_Part_LOD_01_Green"/>
+		<meta id="63b93d12-9a81-4e47-8ea2-295d90107fb2" name="Experiment_11_Part_LOD_23_Blue"/>
+		<meta id="d012a820-87ce-4214-afd0-68d51c290aee" name="Experiment_12_Part_LOD_34_Red"/>
+		<meta id="cb231baf-267c-4e26-b295-b7a8d884a669" name="Experiment_17_Part_LOD_1_Cyan"/>
+		<meta id="b5df3cb2-fdc6-49c6-9bf3-f22a0964d174" name="Experiment_18_Part_LOD_2_Blue"/>
+		<meta id="7db8ba7f-1f29-4288-a419-6c7487c36639" name="Experiment_20_Part_LOD_0_Green"/>
+		<meta id="c000782f-4ea9-4a1d-8825-6c2ec70b97e4" name="Experiment_20_Part_LOD_1_Cyan"/>
+		<meta id="4957d565-aad6-4027-ac0c-788bf655a793" name="Experiment_20_Part_LOD_2_Blue"/>
+		<meta id="626c1099-484b-4a56-a2d4-269fa11adbf6" name="Experiment_20_Part_LOD_3_Orange"/>
+		<meta id="eb64bb45-b4ac-4148-a083-fe82e653a88c" name="Experiment_20_Part_LOD_4_Red"/>
+		<meta id="4bfb918c-7dac-4a17-8d14-be600b4af7b3" name="Experiment_21_Part_LOD_01_Green"/>
+		<meta id="86de599e-d508-4146-af44-3ec39b0b1cd6" name="Experiment_21_Part_LOD_23_Blue"/>
+		<meta id="fc4cd728-7f5a-4c66-9c9b-36bb33cfaeae" name="Experiment_22_Part_LOD_34_Red"/>
+		<meta id="4cebe206-411f-465e-87c9-819f450661f4" name="Experiment_24_Part_LOD_0_Green"/>
+		<meta id="b0d69473-a3cc-472f-95bd-1711e12552e4" name="Experiment_24_Part_LOD_1_Cyan"/>
+		<meta id="874b21a3-182c-449d-83f0-8cfe90742803" name="Experiment_27_Part_LOD_1_Cyan"/>
+		<meta id="5959ea16-b762-487d-b6f0-a86cd7f64c0e" name="Experiment_28_Part_LOD_2_Blue"/>
+	</meta>
+	<meta id="7c5b5929-8e75-4b4a-a273-d757edcfc9b4" type="group" folder="true" name="LOD">
+		<meta id="84902d4e-b1ff-429f-a080-2943ba72e326" name="Experiment_10_Part"/>
+		<meta id="bcd05fe2-cd23-41ca-a332-b5923ab42523" name="Experiment_11_Part"/>
+		<meta id="75849e00-4163-4476-ad10-197f090f8e3b" name="Experiment_12_Part"/>
+		<meta id="677313aa-6e5f-4f20-9420-3024355f8360" name="Experiment_13_Part"/>
+		<meta id="2d80a879-f303-4319-93b0-9da11019cd0a" name="Experiment_14_Part"/>
+		<meta id="a76dba34-a5b4-4784-90a8-8b4577a1436a" name="Experiment_15_Part"/>
+		<meta id="2839c546-d0bd-4e79-89e8-21f64c4b1a11" name="Experiment_16_Part"/>
+		<meta id="0ca99691-e8e9-4029-bf6c-2dfd7b300ef0" name="Experiment_17_Part_0_LODA"/>
+		<meta id="1efd6cbf-b9bc-4b11-a476-5e413baf1523" name="Experiment_17_Part_1_LODA"/>
+		<meta id="fc189e86-e6fc-4999-b7d4-8cc4ec9a20f6" name="Experiment_17_Part_2_LODA"/>
+		<meta id="bb8baa1a-a5d0-4d45-bb42-62afea7c0578" name="Experiment_17_Part_3_LODA"/>
+		<meta id="49bf2283-fb9c-4452-8a84-473e03de5d71" name="Experiment_18_Part_0_LODA"/>
+		<meta id="d42a3360-161a-4828-8629-8144d3814885" name="Experiment_18_Part_1_LODA"/>
+		<meta id="cd7235fc-b8b9-4abd-9483-db9521b10b2f" name="Experiment_18_Part_2_LODB"/>
+		<meta id="06cedfae-bfb1-428c-abde-cf4b0b887abb" name="Experiment_18_Part_2_LODA"/>
+		<meta id="0ff26abc-7a24-4c34-8ac8-9161ccd8c17b" name="Experiment_20_Part"/>
+		<meta id="f70fc0d8-e974-48a1-976b-9aaeffdd8b72" name="Experiment_21_Part"/>
+		<meta id="b2576abd-af47-453f-ba3f-303df56f2fbb" name="Experiment_22_Part"/>
+		<meta id="2185c53f-5118-431a-8a5a-903b6125f1b6" name="Experiment_23_Part"/>
+		<meta id="3af7b349-02b2-4846-8f40-0d707f0de857" name="Experiment_24_Part"/>
+		<meta id="eaa4d9ae-d761-4176-b126-b32de1797115" name="Experiment_25_Part"/>
+		<meta id="346cc38c-4448-42ac-ac29-73e3d4457f2b" name="Experiment_26_Part"/>
+		<meta id="9e761719-edcb-4633-9eaf-35d99a8d7acb" name="Experiment_27_Part_0_LODA"/>
+		<meta id="c8817fe8-0241-4346-9d1d-59f426121fab" name="Experiment_27_Part_1_LODA"/>
+		<meta id="c521b06a-7ee3-452a-9891-18b836f0dbc6" name="Experiment_27_Part_2_LODA"/>
+		<meta id="4663f597-872d-4e85-b33b-d8108dfc2947" name="Experiment_27_Part_3_LODA"/>
+		<meta id="4ec29478-ece7-44da-a9c8-f155b0b216b1" name="Experiment_28_Part_0_LODA"/>
+		<meta id="8b210f8b-21c6-48e5-8c1b-9d8673a3e967" name="Experiment_28_Part_1_LODA"/>
+		<meta id="3d2d9693-ccbc-4b72-affa-5f06e1a26253" name="Experiment_28_Part_2_LODB"/>
+		<meta id="68c25228-43e3-4c2e-b931-c93f6dc556b6" name="Experiment_28_Part_2_LODA"/>
+		<meta id="9711f8e0-9350-4934-90f3-99f21c58f13b" name="Experiment_30_Part"/>
+		<meta id="d5ca0d4c-34a3-4227-a3d1-f10057906f8f" name="Experiment_31_Part"/>
+		<meta id="1408fa35-f526-41f2-94bc-8359a6caf3f7" name="Experiment_32_Part"/>
+		<meta id="aa29b413-d8a1-45bb-9eba-504ccb97042d" name="Experiment_33_Part"/>
+		<meta id="0238fef4-37cb-4c91-adef-1fe140f6b373" name="Experiment_34_Part"/>
+		<meta id="ff423557-7194-4e80-a55f-6302a3a5316a" name="Experiment_35_Part"/>
+		<meta id="4d6da96f-c7ab-4897-a433-598b9e709dad" name="Experiment_36_Part"/>
+		<meta id="c2981ab6-3c03-48a8-911c-cc9a7121dcd2" name="Experiment_37_Part_0_LODA"/>
+		<meta id="745b6971-6889-4c7d-ad10-9d0afeb08ed3" name="Experiment_37_Part_1_LODA"/>
+		<meta id="25d34885-9c2d-4090-b0b4-45bddcce8963" name="Experiment_37_Part_2_LODA"/>
+		<meta id="57fda699-8b52-4182-beb8-8565e2dd41b7" name="Experiment_37_Part_3_LODA"/>
+		<meta id="4a477569-15d5-4f99-b12c-4e994dccc58a" name="Experiment_38_Part_0_LODA"/>
+		<meta id="b1232390-ef5f-4486-a21d-e77b0b90560d" name="Experiment_38_Part_1_LODA"/>
+		<meta id="87bd939c-0e85-4034-8ecc-7447486449c1" name="Experiment_38_Part_2_LODB"/>
+		<meta id="18c0bb16-9bf3-4a13-9ba3-7c77f1dab89b" name="Experiment_38_Part_2_LODA"/>
+		<meta id="e4a940c4-9af6-4da6-95d8-cac8047fea74" name="Experiment_40_Part"/>
+		<meta id="f7ef196b-8031-4d58-be48-dc4271d3d519" name="Experiment_41_Part"/>
+		<meta id="a5849c43-503c-4202-a019-26063f8c1dc1" name="Experiment_42_Part"/>
+		<meta id="b071c97e-1329-48da-959b-c4a8038998e3" name="Experiment_43_Part"/>
+		<meta id="f144851e-7fd8-44e9-8f9a-2e31987db659" name="Experiment_44_Part"/>
+		<meta id="81c93c82-fdb6-447d-ab94-8f95cdf215f1" name="Experiment_45_Part"/>
+		<meta id="81d173e5-8d7a-4717-b331-d7f217b36a9e" name="Experiment_46_Part"/>
+		<meta id="17fefdbe-60b0-41ec-a8c3-e5974cc80c4b" name="Experiment_47_Part_0_LODA"/>
+		<meta id="7c473f1d-d20a-49f5-b653-0a1152a5fdc7" name="Experiment_47_Part_1_LODA"/>
+		<meta id="d056b4d3-155d-43e8-85a0-878e6089becb" name="Experiment_47_Part_2_LODA"/>
+		<meta id="23518edd-c7f8-41a9-a769-1ea66cafb8bc" name="Experiment_47_Part_3_LODA"/>
+		<meta id="73c18358-9075-4344-85e7-45a969d0b26b" name="Experiment_48_Part_0_LODA"/>
+		<meta id="0c9dc1e8-389d-4544-a457-db046b75686b" name="Experiment_48_Part_1_LODA"/>
+		<meta id="2df47f49-1ebe-4af3-83a6-32726995892c" name="Experiment_48_Part_2_LODB"/>
+		<meta id="6827d2ae-cf1e-4efb-abc1-8b9ccd346d00" name="Experiment_48_Part_2_LODA"/>
+	</meta>
+	<meta id="7aefb749-b5f4-445f-b780-c8b59bb8b50d" name="Prefab">
+		<meta id="4e79d73b-c9b2-47e2-9f6f-de22131ad5bc" name="Experiment_10_Part">
+			<meta id="b6d80da5-a37d-405f-b586-cae957ab01de" name="Attach_Major.001"/>
+			<meta id="052e4d14-b289-47af-9574-52540bb54ebc" name="Back_Block.001"/>
+			<meta id="b70c924d-3738-4720-8b20-ee83ae754fe8" name="Pillar.001"/>
+		</meta>
+		<meta id="3e2bdc4a-1dbc-497d-b27d-888a5a8d8cc8" name="Experiment_11_Part">
+			<meta id="53c416d3-2aa2-4b19-a9c7-57e30abe5b46" name="Attach_Major.005"/>
+			<meta id="d259d001-6d34-485e-9305-88483e55029e" name="Back_Block.005"/>
+			<meta id="f40be712-63e4-4622-9329-baa61ad91f0e" name="Pillar.005"/>
+		</meta>
+		<meta id="dcbb56bf-cc83-4ae4-a152-c10d9b18eaaa" name="Experiment_12_Part">
+			<meta id="4db48149-2763-4412-a0e5-6317045dd9be" name="Attach_Major.006"/>
+			<meta id="680e9911-5ef2-4865-a637-0549ca99f338" name="Back_Block.006"/>
+			<meta id="73ccac52-7a43-431c-943d-8ec5f5df214b" name="Pillar.006"/>
+		</meta>
+		<meta id="7392f815-0d92-4d8a-ada2-ebce42a2a639" name="Experiment_13_Part">
+			<meta id="b4e13332-5e5a-467e-90bf-8f188f3f4a05" name="Attach_Major.007"/>
+			<meta id="df4bdcdc-740f-4962-95b5-25a3744d8722" name="Back_Block.007"/>
+			<meta id="739a80e9-3159-40aa-880f-a4e3b11c5c37" name="Pillar.007"/>
+		</meta>
+		<meta id="94603d8a-f3f1-4bcf-a7be-243144ffdddf" name="Experiment_14_Part">
+			<meta id="bddd2af1-57c3-4687-a017-10d251006877" name="Attach_Major.008"/>
+			<meta id="5452c735-079d-4dfb-ae33-b359ee661238" name="Back_Block.008"/>
+			<meta id="4262db26-9c03-4527-9276-4a6a050a4244" name="Pillar.008"/>
+		</meta>
+		<meta id="54f400b7-cc7c-425f-8de6-e719e8996fb3" name="Experiment_15_Part">
+			<meta id="54d2539c-1277-464d-a505-b01cf23a7d51" name="Attach_Major.021"/>
+			<meta id="0dae40be-6280-43da-8dc2-eed41bb8cc36" name="Back_Block.021"/>
+			<meta id="f5a6aaa4-ac7f-452b-9a80-11cf4112994e" name="Pillar.021"/>
+		</meta>
+		<meta id="a13cf65c-9aff-4ec0-85af-1a12c56d9196" name="Experiment_16_Part">
+			<meta id="b3f731fa-6a57-4577-899b-c1afa21372b8" name="Attach_Major.025"/>
+			<meta id="be3af04d-28c8-4827-a68e-777837aa4655" name="Back_Block.025"/>
+			<meta id="5d6e0e5f-6f1e-4728-a77a-0a839245fed0" name="Pillar.025"/>
+		</meta>
+		<meta id="e30c1d2e-6305-4c33-ba3a-b05b24c6f040" name="Experiment_17_Part">
+			<meta id="f43c48a0-0811-4ba1-a76f-fdee37449801" name="Attach_Major.029"/>
+			<meta id="d5158440-791d-4ef6-a85c-a9f88a77c3bf" name="Back_Block.029"/>
+			<meta id="49dc0934-bd87-4f87-9b61-41053dcd6f3a" name="Pillar.029"/>
+			<meta id="bd84e2dc-5644-46b0-9c53-ff4b70512e77" name="Experiment_17_Part_0_LODA"/>
+			<meta id="ac3c608f-7267-4940-aa04-4a8115364fd9" name="Experiment_17_Part_1_LODA"/>
+			<meta id="86247468-de1b-4fef-b8f9-72f41ec1b9cd" name="Experiment_17_Part_2_LODA"/>
+			<meta id="17ebf977-4d97-42ad-868b-275d1800c0e0" name="Experiment_17_Part_3_LODA"/>
+		</meta>
+		<meta id="2e04655d-7e08-4b36-884b-01fac0662f66" name="Experiment_18_Part">
+			<meta id="71e7ecad-d749-40b6-8dd3-9fcc7bd2b467" name="Attach_Major.033"/>
+			<meta id="8b039ba3-3421-4dab-8f78-46ee045cf656" name="Back_Block.033"/>
+			<meta id="87f08f62-3861-4d75-9fed-65f79a883d41" name="Pillar.033"/>
+			<meta id="1209c375-cadb-4f68-8787-0e433441b7b5" name="Experiment_18_Part_0_LODA"/>
+			<meta id="500674db-1515-47ec-a090-4281fd22046b" name="Experiment_18_Part_1_LODA"/>
+			<meta id="b2438c7f-8ed0-4465-92e0-dc47cee4b0a4" name="Experiment_18_Part_2_LODB"/>
+			<meta id="5733e07f-4917-4bd4-a541-62d05cb8b6ee" name="Experiment_18_Part_2_LODA"/>
+		</meta>
+		<meta id="00be4c9a-d573-4bb4-b5ae-bad1cbb33450" name="Experiment_20_Part">
+			<meta id="88b1ee56-4a54-4c99-8632-3c9e0d47c1ef" name="Attach_Major.002"/>
+			<meta id="d6c5a88a-eae6-409f-ad12-2e81a4690b1e" name="Back_Block.002"/>
+			<meta id="a800f89b-fd69-4afd-a267-4fd1b199ab74" name="Pillar.002"/>
+		</meta>
+		<meta id="725cb7a1-35e5-448e-b682-34001a50ba30" name="Experiment_21_Part">
+			<meta id="0fe712ff-c20b-48e4-951f-1ffc00063994" name="Attach_Major.009"/>
+			<meta id="c0d4220b-79d7-478e-bbe9-eb72715a1260" name="Back_Block.009"/>
+			<meta id="3fceadbf-9d10-43cc-8ff0-18cfdebe903d" name="Pillar.009"/>
+		</meta>
+		<meta id="89914711-eae6-4eca-8019-b0abe8ea4c40" name="Experiment_22_Part">
+			<meta id="67fe1593-5422-47e0-bd75-7f9e63e35f11" name="Attach_Major.010"/>
+			<meta id="a8b489a7-3207-4930-bc5c-0fde7b048d6e" name="Back_Block.010"/>
+			<meta id="aec05a45-0763-4d52-8e33-00bfa1d48c47" name="Pillar.010"/>
+		</meta>
+		<meta id="d9492545-a848-4936-a112-999916cc2282" name="Experiment_23_Part">
+			<meta id="fb54f0ec-d1f3-4c35-88a3-1919eee965bf" name="Attach_Major.011"/>
+			<meta id="5bdfd626-f154-497b-9976-ed7114209c2e" name="Back_Block.011"/>
+			<meta id="385a3b99-e923-441d-bfb9-194b356f62a4" name="Pillar.011"/>
+		</meta>
+		<meta id="eb6642de-0d07-4323-af24-2e7f22b67de7" name="Experiment_24_Part">
+			<meta id="54e4044c-eab1-4b80-8a9f-99bcae4fd7ff" name="Attach_Major.012"/>
+			<meta id="e81b2612-9f83-4bc5-9ec1-3b9e70a6e723" name="Back_Block.012"/>
+			<meta id="0046379d-3f44-4d05-8dfa-c6a7c9019cee" name="Pillar.012"/>
+		</meta>
+		<meta id="602da01c-9468-478a-bb9d-4b8d163fd59a" name="Experiment_25_Part">
+			<meta id="c8318dc9-85b6-4108-8899-7dd16821494a" name="Attach_Major.022"/>
+			<meta id="843d2015-e15a-4508-8e7d-f67cd3894e7f" name="Back_Block.022"/>
+			<meta id="092aa67e-5b42-4dd8-a894-2ec2295f16cc" name="Pillar.022"/>
+		</meta>
+		<meta id="45f0bcd5-a0f5-4846-84ab-cac4e5298dc7" name="Experiment_26_Part">
+			<meta id="d61076b9-8885-4d71-b659-a573edea4a4a" name="Attach_Major.026"/>
+			<meta id="179ea7bd-88ee-4db1-8759-16e75d554dbb" name="Back_Block.026"/>
+			<meta id="3d7fdbc5-2bd6-4aba-a68b-5f52f1cc6057" name="Pillar.026"/>
+		</meta>
+		<meta id="3a61f065-8e48-4aed-bf86-c0d526892b77" name="Experiment_27_Part">
+			<meta id="9d799683-073a-4373-b0e3-3204631a7c2c" name="Attach_Major.030"/>
+			<meta id="dbc1f70b-db09-41dc-94e6-ef5fe81c5669" name="Back_Block.030"/>
+			<meta id="2c8c6bb0-9a86-4525-b374-387da7db557c" name="Pillar.030"/>
+			<meta id="8a61532a-8b62-4c59-bbb2-aad856fd787d" name="Experiment_27_Part_0_LODA"/>
+			<meta id="9d513185-abc0-4f81-ac2a-7a4b3cf42f2a" name="Experiment_27_Part_1_LODA"/>
+			<meta id="1aa46c23-1401-4cf4-884d-06cfc7df5a59" name="Experiment_27_Part_2_LODA"/>
+			<meta id="4fb24a80-1a96-498f-a562-8cdee6398c73" name="Experiment_27_Part_3_LODA"/>
+		</meta>
+		<meta id="da7776f2-0596-4dd7-9d69-c28976822293" name="Experiment_28_Part">
+			<meta id="6f2580e0-c8d1-4e88-a01f-afe01c3d797b" name="Attach_Major.034"/>
+			<meta id="112a8862-ceaa-4a6d-91cb-08f30e6ed428" name="Back_Block.034"/>
+			<meta id="473caaf1-1ca8-47ab-98db-4148188963d6" name="Pillar.034"/>
+			<meta id="5febfd4e-165b-4c5b-a5c6-c736ace47c3c" name="Experiment_28_Part_0_LODA"/>
+			<meta id="c364b2f7-eb4c-42f2-b566-ba3c037dba8a" name="Experiment_28_Part_1_LODA"/>
+			<meta id="78cb8e5b-3a27-47d7-91e2-c2d3df84cb00" name="Experiment_28_Part_2_LODB"/>
+			<meta id="efdd8949-ef45-4780-9ffb-2f8d58228e45" name="Experiment_28_Part_2_LODA"/>
+		</meta>
+		<meta id="6e889d11-94f0-418e-a8b0-7848aa92aa68" name="Experiment_30_Part">
+			<meta id="266a1857-a864-4e33-9611-9c42d297e0c7" name="Attach_Major.003"/>
+			<meta id="4bc4d0bf-3867-477e-b444-deea24e21112" name="Back_Block.003"/>
+			<meta id="671132de-6947-4277-b4b1-522a416b97e1" name="Pillar.003"/>
+		</meta>
+		<meta id="7d24107b-d912-4f6a-8e38-c235968127f0" name="Experiment_31_Part">
+			<meta id="9a383050-8e23-4d32-a6c4-910872a96691" name="Attach_Major.013"/>
+			<meta id="11da86d1-3bc0-4c4f-ba8d-0da7580ca45c" name="Back_Block.013"/>
+			<meta id="c3c831d2-0fd1-438d-a421-4943f13c7b8b" name="Pillar.013"/>
+		</meta>
+		<meta id="5d417cf1-7d75-4156-b128-933a98297c1f" name="Experiment_32_Part">
+			<meta id="6e0f7553-52f8-45cc-b0d5-fc3dcda50a1f" name="Attach_Major.014"/>
+			<meta id="fc52e7de-97f5-419c-ba1f-b310325a8e28" name="Back_Block.014"/>
+			<meta id="a4044588-e99a-4675-b2f0-a0d4e3f348b6" name="Pillar.014"/>
+		</meta>
+		<meta id="a558d4b3-475b-4ddf-ac26-49585c7ba82c" name="Experiment_33_Part">
+			<meta id="1ae6469c-92a4-4a98-862a-9476648d18c2" name="Attach_Major.015"/>
+			<meta id="096213b1-61fe-49a0-a1df-e1fac0fc8ebf" name="Back_Block.015"/>
+			<meta id="a93cf238-b708-4123-b5d7-29e4a9c8604a" name="Pillar.015"/>
+		</meta>
+		<meta id="2a0ed13f-635e-41d0-815a-f7b320b0b55e" name="Experiment_34_Part">
+			<meta id="548d2c79-4b03-458c-9372-0629d33a2bbe" name="Attach_Major.016"/>
+			<meta id="78bc76c6-da34-433a-8f2a-31dbe5a8ae42" name="Back_Block.016"/>
+			<meta id="162d679e-a2be-4af7-8489-809e1352b589" name="Pillar.016"/>
+		</meta>
+		<meta id="906f02dc-1e39-4a47-b207-41c48fca825f" name="Experiment_35_Part">
+			<meta id="88ba5722-30d8-4244-9505-769d4a7027d7" name="Attach_Major.023"/>
+			<meta id="926e2f4d-f346-4862-b7ca-88b809b8f426" name="Back_Block.023"/>
+			<meta id="62004671-f8f2-4173-bb75-5ed38a697c38" name="Pillar.023"/>
+		</meta>
+		<meta id="64f15918-ce2d-46f7-8d67-fa8231fe0c96" name="Experiment_36_Part">
+			<meta id="f554a1ca-d75b-4030-9793-c83a1b7986ca" name="Attach_Major.027"/>
+			<meta id="12a11ff6-8bdf-4d37-bb73-1488d7bbf0d7" name="Back_Block.027"/>
+			<meta id="b59ec28b-b986-4cf3-bd42-97ceeda35353" name="Pillar.027"/>
+		</meta>
+		<meta id="f1f03d7f-0847-455b-adf1-74bd2a3ed220" name="Experiment_37_Part">
+			<meta id="8c30fd27-1ac7-41ae-b205-3839a1960c83" name="Attach_Major.031"/>
+			<meta id="9399b670-831a-40bf-87fd-9aa5e35710d3" name="Back_Block.031"/>
+			<meta id="54c717ab-eb50-42af-b7e1-4dbe4f95bafb" name="Pillar.031"/>
+			<meta id="b990f207-d2fd-4f8e-b0b3-969d602bdf8a" name="Experiment_37_Part_0_LODA"/>
+			<meta id="d3013a66-5a45-4e91-9160-b3dcd7b449a2" name="Experiment_37_Part_1_LODA"/>
+			<meta id="f79597a8-f1bf-4483-9cef-b3eb29ee3fd8" name="Experiment_37_Part_2_LODA"/>
+			<meta id="6d6d6463-bad8-4ae5-b5b0-7d5e6166ae60" name="Experiment_37_Part_3_LODA"/>
+		</meta>
+		<meta id="50b935b1-8138-4bde-955c-a7a7a50e7f4c" name="Experiment_38_Part">
+			<meta id="c8e479b1-191e-4156-b0a7-c655483db5fe" name="Attach_Major.035"/>
+			<meta id="dddd2613-eb6f-40f2-9c2c-67478e74fef2" name="Back_Block.035"/>
+			<meta id="337b98b0-29a1-423d-9fe4-3c4f475f73d3" name="Pillar.035"/>
+			<meta id="b67efb56-9e3f-47b8-8221-b52ba65fd6b2" name="Experiment_38_Part_0_LODA"/>
+			<meta id="b439e5e9-2eaf-4348-8258-9f67a10ab111" name="Experiment_38_Part_1_LODA"/>
+			<meta id="4df67861-99c3-4bdb-a3e7-54268ead5386" name="Experiment_38_Part_2_LODB"/>
+			<meta id="eed34f1a-3fb0-47cd-a0eb-1f1ac2377f16" name="Experiment_38_Part_2_LODA"/>
+		</meta>
+		<meta id="b5929efb-b0c4-487d-b506-48c4613172ba" name="Experiment_40_Part">
+			<meta id="cc769fcf-42c5-4ad8-88a3-71df06a7fa29" name="Attach_Major.004"/>
+			<meta id="663d931a-b797-4568-8e29-53299fcb2d31" name="Back_Block.004"/>
+			<meta id="40708dad-a295-4807-bfc5-42dd2d9ff6a5" name="Pillar.004"/>
+		</meta>
+		<meta id="78dff905-cc39-4236-845c-265f15962f38" name="Experiment_41_Part">
+			<meta id="a37add79-a5a0-44ed-824b-e9675ab42346" name="Attach_Major.017"/>
+			<meta id="1edebcaf-e179-47e2-97c2-b07896191719" name="Back_Block.017"/>
+			<meta id="5d96678b-06da-458e-80fb-e2f166647c97" name="Pillar.017"/>
+		</meta>
+		<meta id="abfe6c2f-3608-453e-9432-c840a2cfa11b" name="Experiment_42_Part">
+			<meta id="a9cfc594-7455-429f-a5a4-17978b023d0c" name="Attach_Major.018"/>
+			<meta id="e61e41d7-72dd-4083-992d-b985effad1dd" name="Back_Block.018"/>
+			<meta id="67b64b2d-287a-4032-a4dd-3661441a045c" name="Pillar.018"/>
+		</meta>
+		<meta id="514a177f-e0ca-45f4-9055-eb75da52be34" name="Experiment_43_Part">
+			<meta id="316e34a5-add1-4eee-a2d1-ee9635280993" name="Attach_Major.019"/>
+			<meta id="737737ab-a5a5-48a4-a567-458252d3ad93" name="Back_Block.019"/>
+			<meta id="af89766a-fac1-4443-b122-ac65879e2dbc" name="Pillar.019"/>
+		</meta>
+		<meta id="c6c85ab4-7fd0-4d99-b8f2-3fa8bc5ee512" name="Experiment_44_Part">
+			<meta id="a2239e09-7202-45e7-9fe3-d08362f9ea43" name="Attach_Major.020"/>
+			<meta id="bdc6ac01-4eb4-40a1-9e1e-3def480191da" name="Back_Block.020"/>
+			<meta id="e5494a6e-f690-4775-a047-9ac587719671" name="Pillar.020"/>
+		</meta>
+		<meta id="9a90bc79-4d87-47e4-b121-9ee0b7549f8b" name="Experiment_45_Part">
+			<meta id="a0c79b6a-65f7-4cd2-8276-97debcdf4204" name="Attach_Major.024"/>
+			<meta id="9732b48f-010b-4421-8fbe-b9a08efc725b" name="Back_Block.024"/>
+			<meta id="102c5ded-b7a7-4b8d-86e1-df5a57854503" name="Pillar.024"/>
+		</meta>
+		<meta id="4acc36ef-d42b-4824-9761-3ab29a91031a" name="Experiment_46_Part">
+			<meta id="94c86967-3b7e-43d0-b844-d2cdbe1d60a0" name="Attach_Major.028"/>
+			<meta id="62697376-c172-4182-90ca-16a32e48103d" name="Back_Block.028"/>
+			<meta id="1e9bfd03-1c9e-49cd-bb0a-4edb35842e07" name="Pillar.028"/>
+		</meta>
+		<meta id="cf33d524-4a1f-4c0d-9f1f-f5efe4717e0b" name="Experiment_47_Part">
+			<meta id="61d59c43-bbdb-44a6-9f34-d644caf6d066" name="Attach_Major.032"/>
+			<meta id="55f74281-9ee1-40c0-9fd4-aea784395bff" name="Back_Block.032"/>
+			<meta id="7fbc1cc4-68e9-4a8d-a58c-59e609797d75" name="Pillar.032"/>
+			<meta id="fd31441c-86e3-4255-9904-b0467f0ba737" name="Experiment_47_Part_0_LODA"/>
+			<meta id="77cc053d-d566-4740-b5c4-153fff2e4aae" name="Experiment_47_Part_1_LODA"/>
+			<meta id="5ade4538-0479-4450-9b1f-3004b57bbaa1" name="Experiment_47_Part_2_LODA"/>
+			<meta id="fb3fb362-8391-4950-a65b-ea0332ab8849" name="Experiment_47_Part_3_LODA"/>
+		</meta>
+		<meta id="5dd3bc06-80c8-4a2e-ae42-b768dacced0d" name="Experiment_48_Part">
+			<meta id="194beef9-c006-40f1-adcd-ccff9fe80074" name="Attach_Major.036"/>
+			<meta id="c72c5dd0-4938-429f-a77d-d5188873cb9b" name="Back_Block.036"/>
+			<meta id="c34d34d8-93fd-4593-bf28-af3a5f571747" name="Pillar.036"/>
+			<meta id="b0562c32-060f-436a-a155-8efb0fda3200" name="Experiment_48_Part_0_LODA"/>
+			<meta id="a42a812a-567c-47fb-84b0-bcc4b91a6a92" name="Experiment_48_Part_1_LODA"/>
+			<meta id="b59f4dbb-dd9a-4f92-8ec1-38fafab14c1f" name="Experiment_48_Part_2_LODB"/>
+			<meta id="e52994ec-ad53-43e8-b8cd-18e60daf4a50" name="Experiment_48_Part_2_LODA"/>
+		</meta>
+	</meta>
+</meta>
+<importer type="GamCFbxImporterConfiguration">
+	<WorkFilePath value="utf8:"/>
+	<Md5Checksum value="052bd9fe1570efdfd33ca0c0d4819868"/>
+	<ModelVersion value="37"/>
+	<Scale value="0.01"/>
+	<PatchMeshOffset value="true"/>
+	<UniqueNodeName value="false"/>
+	<ImportAnimation value="false"/>
+	<IgnoreRootAnimation value="false"/>
+	<FlipXAxis value="true"/>
+	<ZUpSource value="false"/>
+	<MergeDuplicateMeshes value="true"/>
+	<GenerateLod value="false"/>
+	<OverrideExistingLod value="false"/>
+	<NodeConfig type="GenCFbxNodeConfig">
+		<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+		<ChildList>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Attach_Major.001"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Back_Block.001"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Pillar.001"/>
+					</Item>
+				</ChildList>
+				<NodeName value="Experiment_10_Part"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Attach_Major.005"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Back_Block.005"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Pillar.005"/>
+					</Item>
+				</ChildList>
+				<NodeName value="Experiment_11_Part"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Attach_Major.006"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Back_Block.006"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Pillar.006"/>
+					</Item>
+				</ChildList>
+				<NodeName value="Experiment_12_Part"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Attach_Major.007"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Back_Block.007"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Pillar.007"/>
+					</Item>
+				</ChildList>
+				<NodeName value="Experiment_13_Part"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Attach_Major.008"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Back_Block.008"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Pillar.008"/>
+					</Item>
+				</ChildList>
+				<NodeName value="Experiment_14_Part"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Attach_Major.021"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Back_Block.021"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Pillar.021"/>
+					</Item>
+				</ChildList>
+				<NodeName value="Experiment_15_Part"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Attach_Major.025"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Back_Block.025"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Pillar.025"/>
+					</Item>
+				</ChildList>
+				<NodeName value="Experiment_16_Part"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Attach_Major.029"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Back_Block.029"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Pillar.029"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Experiment_17_Part_0_LODA"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Experiment_17_Part_1_LODA"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Experiment_17_Part_2_LODA"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Experiment_17_Part_3_LODA"/>
+					</Item>
+				</ChildList>
+				<NodeName value="Experiment_17_Part"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Attach_Major.033"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Back_Block.033"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Pillar.033"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Experiment_18_Part_0_LODA"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Experiment_18_Part_1_LODA"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Experiment_18_Part_2_LODB"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Experiment_18_Part_2_LODA"/>
+					</Item>
+				</ChildList>
+				<NodeName value="Experiment_18_Part"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Attach_Major.002"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Back_Block.002"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Pillar.002"/>
+					</Item>
+				</ChildList>
+				<NodeName value="Experiment_20_Part"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Attach_Major.009"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Back_Block.009"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Pillar.009"/>
+					</Item>
+				</ChildList>
+				<NodeName value="Experiment_21_Part"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Attach_Major.010"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Back_Block.010"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Pillar.010"/>
+					</Item>
+				</ChildList>
+				<NodeName value="Experiment_22_Part"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Attach_Major.011"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Back_Block.011"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Pillar.011"/>
+					</Item>
+				</ChildList>
+				<NodeName value="Experiment_23_Part"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Attach_Major.012"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Back_Block.012"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Pillar.012"/>
+					</Item>
+				</ChildList>
+				<NodeName value="Experiment_24_Part"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Attach_Major.022"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Back_Block.022"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Pillar.022"/>
+					</Item>
+				</ChildList>
+				<NodeName value="Experiment_25_Part"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Attach_Major.026"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Back_Block.026"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Pillar.026"/>
+					</Item>
+				</ChildList>
+				<NodeName value="Experiment_26_Part"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Attach_Major.030"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Back_Block.030"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Pillar.030"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Experiment_27_Part_0_LODA"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Experiment_27_Part_1_LODA"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Experiment_27_Part_2_LODA"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Experiment_27_Part_3_LODA"/>
+					</Item>
+				</ChildList>
+				<NodeName value="Experiment_27_Part"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Attach_Major.034"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Back_Block.034"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Pillar.034"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Experiment_28_Part_0_LODA"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Experiment_28_Part_1_LODA"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Experiment_28_Part_2_LODB"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Experiment_28_Part_2_LODA"/>
+					</Item>
+				</ChildList>
+				<NodeName value="Experiment_28_Part"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Attach_Major.003"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Back_Block.003"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Pillar.003"/>
+					</Item>
+				</ChildList>
+				<NodeName value="Experiment_30_Part"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Attach_Major.013"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Back_Block.013"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Pillar.013"/>
+					</Item>
+				</ChildList>
+				<NodeName value="Experiment_31_Part"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Attach_Major.014"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Back_Block.014"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Pillar.014"/>
+					</Item>
+				</ChildList>
+				<NodeName value="Experiment_32_Part"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Attach_Major.015"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Back_Block.015"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Pillar.015"/>
+					</Item>
+				</ChildList>
+				<NodeName value="Experiment_33_Part"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Attach_Major.016"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Back_Block.016"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Pillar.016"/>
+					</Item>
+				</ChildList>
+				<NodeName value="Experiment_34_Part"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Attach_Major.023"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Back_Block.023"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Pillar.023"/>
+					</Item>
+				</ChildList>
+				<NodeName value="Experiment_35_Part"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Attach_Major.027"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Back_Block.027"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Pillar.027"/>
+					</Item>
+				</ChildList>
+				<NodeName value="Experiment_36_Part"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Attach_Major.031"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Back_Block.031"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Pillar.031"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Experiment_37_Part_0_LODA"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Experiment_37_Part_1_LODA"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Experiment_37_Part_2_LODA"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Experiment_37_Part_3_LODA"/>
+					</Item>
+				</ChildList>
+				<NodeName value="Experiment_37_Part"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Attach_Major.035"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Back_Block.035"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Pillar.035"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Experiment_38_Part_0_LODA"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Experiment_38_Part_1_LODA"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Experiment_38_Part_2_LODB"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Experiment_38_Part_2_LODA"/>
+					</Item>
+				</ChildList>
+				<NodeName value="Experiment_38_Part"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Attach_Major.004"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Back_Block.004"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Pillar.004"/>
+					</Item>
+				</ChildList>
+				<NodeName value="Experiment_40_Part"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Attach_Major.017"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Back_Block.017"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Pillar.017"/>
+					</Item>
+				</ChildList>
+				<NodeName value="Experiment_41_Part"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Attach_Major.018"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Back_Block.018"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Pillar.018"/>
+					</Item>
+				</ChildList>
+				<NodeName value="Experiment_42_Part"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Attach_Major.019"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Back_Block.019"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Pillar.019"/>
+					</Item>
+				</ChildList>
+				<NodeName value="Experiment_43_Part"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Attach_Major.020"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Back_Block.020"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Pillar.020"/>
+					</Item>
+				</ChildList>
+				<NodeName value="Experiment_44_Part"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Attach_Major.024"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Back_Block.024"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Pillar.024"/>
+					</Item>
+				</ChildList>
+				<NodeName value="Experiment_45_Part"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Attach_Major.028"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Back_Block.028"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Pillar.028"/>
+					</Item>
+				</ChildList>
+				<NodeName value="Experiment_46_Part"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Attach_Major.032"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Back_Block.032"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Pillar.032"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Experiment_47_Part_0_LODA"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Experiment_47_Part_1_LODA"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Experiment_47_Part_2_LODA"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Experiment_47_Part_3_LODA"/>
+					</Item>
+				</ChildList>
+				<NodeName value="Experiment_47_Part"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Attach_Major.036"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Back_Block.036"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Pillar.036"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Experiment_48_Part_0_LODA"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Experiment_48_Part_1_LODA"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Experiment_48_Part_2_LODB"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Experiment_48_Part_2_LODA"/>
+					</Item>
+				</ChildList>
+				<NodeName value="Experiment_48_Part"/>
+			</Item>
+		</ChildList>
+		<NodeName value="Prefab"/>
+	</NodeConfig>
+	<MaterialList>
+		<Item type="GamCDataMaterialPair">
+			<MaterialGuid value="00000000-0000-0000-0000-000000000000"/>
+			<MaterialName value="Blue"/>
+		</Item>
+		<Item type="GamCDataMaterialPair">
+			<MaterialGuid value="00000000-0000-0000-0000-000000000000"/>
+			<MaterialName value="Cyan"/>
+		</Item>
+		<Item type="GamCDataMaterialPair">
+			<MaterialGuid value="00000000-0000-0000-0000-000000000000"/>
+			<MaterialName value="Green"/>
+		</Item>
+		<Item type="GamCDataMaterialPair">
+			<MaterialGuid value="00000000-0000-0000-0000-000000000000"/>
+			<MaterialName value="Orange"/>
+		</Item>
+		<Item type="GamCDataMaterialPair">
+			<MaterialGuid value="00000000-0000-0000-0000-000000000000"/>
+			<MaterialName value="Red"/>
+		</Item>
+	</MaterialList>
+</importer>
+
