@@ -1,6 +1,6 @@
 {
   "Name": "Foundation LOD Tests",
   "Author": "IdleEngineer",
-  "Description": "A mod containing various variations of \"LOD-traffic light\" models. The models are used for testing the LOD system in Foundation to find out what works (and what doesn't) in Blender fbx exports using the community recommended workflow.",
+  "Description": "A structured set of 36 experiments testing Foundation's LOD system using Blender FBX exports. Covers LOD naming conventions (with and without mesh suffixes), combined LOD ranges (e.g. LOD_01), single vs. multiple meshes per LOD level, and edge cases like gaps and overlapping ranges. Includes the Blender source file so the community can run their own experiments. Findings are documented in metadata/.",
   "Version": "0.1.0"
 }

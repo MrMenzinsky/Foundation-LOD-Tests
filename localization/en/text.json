@@ -1,7 +1,7 @@
 {
   "MONUMENT": {
     "MONUMENT_NAME": "LOD traffic light monument",
-    "MONUMENT_DESC": "A placeholder monument."
+    "MONUMENT_DESC": "A test monument with 36 LOD experiments. Use the building part picker to switch between them, then move the camera in and out to observe how the model changes at different distances."
   },
 
 
