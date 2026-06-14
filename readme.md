@@ -1,0 +1,57 @@
+# Foundation LOD Tests
+
+A test mod for figuring out how Foundation handles LOD meshes from Blender FBX exports. LOD behaviour in Foundation is poorly documented and modders keep running into issues: meshes not switching at the right distance, LOD levels being silently ignored, the game just using one mesh regardless of what's in the file. This mod makes the edge cases testable and visible in-game.
+
+## What's in here
+
+36 building parts, each a "traffic light" configured with a different LOD setup. Traffic lights are a good test subject because LOD transitions are easy to spot visually at a distance.
+
+The experiments are split into four groups:
+
+| Group | Suffix names | Meshes per LOD level |
+|-------|-------------|----------------------|
+| 10-18 | No          | Single               |
+| 20-28 | No          | Multiple (two each)  |
+| 30-38 | Yes         | Single               |
+| 40-48 | Yes         | Multiple (two each)  |
+
+Each group tests the same nine configurations:
+
+| Configuration | What it tests |
+|---------------|---------------|
+| `LOD_0` `LOD_1` `LOD_2` `LOD_3` `LOD_4` | All five levels individually |
+| `LOD_01` `LOD_23` `LOD_4` | Combined first two, combined middle two, single at end |
+| `LOD_01` `LOD_2` `LOD_34` | Combined first, single middle, combined end |
+| `LOD_01` `LOD_2` `LOD_3` `LOD_4` | Combined first, rest singles |
+| `LOD_0` `LOD_1` `LOD_2` `LOD_34` | Singles first, combined end |
+| `LOD_0` `LOD_1` `LOD_2` | Gap at the end (LOD_3 and LOD_4 missing) |
+| `LOD_0` `LOD_1` `LOD_3` `LOD_4` | Gap in the middle (LOD_2 missing) |
+| `LOD_01` `LOD_1` `LOD_23` `LOD_4` | Overlap: LOD_1 covered by both a combined and a single |
+| `LOD_01` `LOD_2` `LOD_23` `LOD_4` | Overlap: LOD_2 covered by both a combined and a single |
+
+## Results
+
+Observations from running the experiments are in [metadata/findings.md](metadata/findings.md).
+
+## Using the mod
+
+Build a **Village Centre** to unlock the **LOD traffic light monument**, then place it. The building part picker lets you switch between experiments. Move the camera in and out to watch the LOD transitions.
+
+## Running your own experiments
+
+The Blender source is at [metadata/Blender/LOD-traffic-lights.blend](metadata/Blender/LOD-traffic-lights.blend). Change the mesh names or LOD setup, re-export to FBX (double check the settings and that you export to the modeuls/ folder!), and load the mod. The Lua scripts and localization files are repetitive by design, so adding new experiment numbers is just a matter of following the existing pattern.
+
+## Files
+
+```
+models/          FBX export
+metadata/
+  Blender/       Blender source file
+  findings.md    Experiment results
+scripts/         Lua mod code
+localization/    In-game text
+```
+
+
+Map code:
+50xads9Qb0a0O
