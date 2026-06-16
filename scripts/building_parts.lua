@@ -6,6 +6,18 @@ mod:registerAssetProcessor("models/" .. filename, {
     DataType = "BUILDING_ASSET_PROCESSOR"
 })
 
+local materials = {
+    "Red",
+    "Orange",
+    "Blue",
+    "Cyan",
+    "Green"
+}
+
+for _, material in ipairs(materials) do
+    mod:registerAssetId("models/" .. filename .. "/Materials/" .. material, string.upper(material))
+end
+
 local templateBlocks = {
         -- Single LOD_X without suffix names
         "Experiment_10_Part",
@@ -63,19 +75,10 @@ for _, templateBlock in ipairs(templateBlocks) do
         Description = string.upper(templateBlock) .. "_DESC",
         ConstructorData = {
             DataType = "BUILDING_CONSTRUCTOR_DEFAULT",
-            CoreObjectPrefab = prefab
+            CoreObjectPrefab = prefab,
+        MiniatureConfig = {
+            CameraPosition = { 0.0, 0.0, 0.0 }
+        }
         }
     })
-end
-
-local materials = {
-    "Red",
-    "Orange",
-    "Blue",
-    "Cyan",
-    "Green"
-}
-
-for _, material in ipairs(materials) do
-    mod:registerAssetId("models/" .. filename .. "/Materials/" .. material, string.upper(material))
 end
