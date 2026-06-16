@@ -40,6 +40,10 @@ Each group tests the same nine configurations:
 | `LOD_01` `LOD_1` `LOD_23` `LOD_4` | Overlap: LOD_1 covered by both a combined and a single |
 | `LOD_01` `LOD_2` `LOD_23` `LOD_4` | Overlap: LOD_2 covered by both a combined and a single |
 
+### The test models
+
+![All 36 test models in Blender](<metadata/Blender screenshot.png>)
+
 ## Results
 
 Observations from running the experiments are in [metadata/findings.md](metadata/findings.md).
