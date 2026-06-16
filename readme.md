@@ -2,6 +2,17 @@
 
 A test mod for figuring out how Foundation handles LOD meshes from Blender FBX exports. LOD behaviour in Foundation is poorly documented and modders keep running into issues: meshes not switching at the right distance, LOD levels being silently ignored, the game just using one mesh regardless of what's in the file. This mod makes the edge cases testable and visible in-game.
 
+## TL;DR
+
+- Individual LOD levels work. Combined ranges (`LOD_01`, `LOD_23`) work if used at the start of the sequence, not the end.
+- Never end your LOD sequence on a combined range (`LOD_34` as the last entry breaks everything).
+- Never leave a gap in the middle of your LOD sequence (a gap at the end is fine).
+- Do not define a LOD level both as part of a combined range and as a standalone entry.
+- Blender's auto-generated `.001`, `.002` suffixes on mesh names are harmless.
+- Multiple meshes per LOD level work fine.
+
+Full findings and details: [metadata/findings.md#summary](metadata/findings.md#summary)
+
 ## What's in here
 
 36 building parts, each a "traffic light" configured with a different LOD setup. Traffic lights are a good test subject because LOD transitions are easy to spot visually at a distance.
@@ -52,6 +63,5 @@ scripts/         Lua mod code
 localization/    In-game text
 ```
 
-
-Map code:
-50xads9Qb0a0O
+### Map code used for testing
+**50xads9Qb0a0O**
