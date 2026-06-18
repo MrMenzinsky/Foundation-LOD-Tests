@@ -103,3 +103,16 @@ Multiple meshes per LOD level are supported. Foundation renders all meshes assig
 - Do not define a LOD level both as part of a combined range and as a standalone entry.
 - Suffix names are irrelevant to LOD resolution, so Blender's auto-generated `.001`, `.002` suffixes are harmless.
 - Multiple meshes per LOD level work and can be used freely.
+
+## Bonus extra tests
+
+| # | Configuration | Result | Notes |
+|---|---------------|--------|-------|
+| 50 | `LOD_012`, `LOD_3`, `LOD_4` |  |  |
+| 51 | `LOD_012`, `LOD_34` |  |  |
+| 52 | `LOD_0123`, `LOD_4` |  |  |
+| 53 | `LOD_01234` |  |  |
+| 54 | `LOD_01`, `LOD_234` |  |  |
+| 55 | `LOD_012`, `LOD_234` |  |  |
+| 56 | `LOD_2`, `LOD_3`, `LOD_4` (gap at beginning) |  |  |
+| 57 | `LOD_01`, `LOD_2`, `LOD_3` (gap at end with combined at beginning) |  |  |

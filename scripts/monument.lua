@@ -54,7 +54,17 @@ mod:registerAsset({
         "EXPERIMENT_45_PART",
         "EXPERIMENT_46_PART",
         "EXPERIMENT_47_PART",
-        "EXPERIMENT_48_PART"
+        "EXPERIMENT_48_PART",
+
+        -- Extra LOD tests
+        "EXPERIMENT_50_PART",
+        "EXPERIMENT_51_PART",
+        "EXPERIMENT_52_PART",
+        "EXPERIMENT_53_PART",
+        "EXPERIMENT_54_PART",
+        "EXPERIMENT_55_PART",
+        "EXPERIMENT_56_PART",
+        "EXPERIMENT_57_PART"
     }
 })
 

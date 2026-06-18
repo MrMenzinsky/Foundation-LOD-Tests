@@ -61,7 +61,17 @@ local templateBlocks = {
         "Experiment_45_Part",
         "Experiment_46_Part",
         "Experiment_47_Part",
-        "Experiment_48_Part"
+        "Experiment_48_Part",
+
+        -- Extra LOD tests
+        "Experiment_50_Part",
+        "Experiment_51_Part",
+        "Experiment_52_Part",
+        "Experiment_53_Part",
+        "Experiment_54_Part",
+        "Experiment_55_Part",
+        "Experiment_56_Part",
+        "Experiment_57_Part"
 }
 
 for _, templateBlock in ipairs(templateBlocks) do
