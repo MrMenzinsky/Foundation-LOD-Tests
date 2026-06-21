@@ -1,6 +1,6 @@
 # LOD Experiment Findings
 
-Observations from running the 36 experiments in-game. Each entry notes whether LOD transitions behaved as expected and any unexpected behaviour.
+Observations from running the experiments in-game. Each entry notes whether LOD transitions behaved as expected and any unexpected behaviour.
 
 **Setup:** Foundation version `1.11.0.17`, mod version `0.1.0`
 
@@ -74,17 +74,17 @@ The 36 experiments were run across four variable groups: suffix names (yes/no) a
 
 ### What works
 
-Individual LOD levels (`LOD_0` through `LOD_4`) work reliably in all tested combinations. Combined ranges at the start of the sequence (`LOD_01`) also work, as long as the sequence ends on a single level. Gaps at the end of the sequence (`LOD_0`, `LOD_1`, `LOD_2` with nothing further) work too -- the model just stops switching beyond the last defined level, which is probably the intended behaviour.
+Individual LOD levels (`LOD_0` through `LOD_4`) work reliably in all tested combinations. Combined ranges (`LOD_01`, `LOD_12`, etc.) also work, whether at the start of the sequence, in the middle, or in any combination, as long as the last entry in the sequence is a single level. Gaps at the end of the sequence (`LOD_0`, `LOD_1`, `LOD_2` with nothing further) work too: the model stops switching beyond the last defined level, which is probably the intended behaviour.
 
 ### What breaks, and how
 
 Three failure modes were found, each consistent across all four variable groups:
 
 **1. Combined range at the end of the sequence**
-Any configuration ending in a combined range (`LOD_34`) causes all LOD levels to render using the material of the first level. In the test models, this means everything renders green regardless of camera distance. Experiments 12, 14, 22, 24, 32, 34, 42, and 44 all fail this way. Notably, a combined range at the *start* (`LOD_01`) works fine -- the problem is specific to the last entry in the sequence. Why Foundation treats the first and last combined ranges differently is unclear.
+Any configuration ending in a combined range (`LOD_34`) causes all LOD levels to render using the material of the first level. In the test models, this means everything renders green regardless of camera distance. Experiments 12, 14, 22, 24, 32, 34, 42, and 44 all fail this way. This is a model-wide failure: even a combined range placed correctly earlier in the sequence is affected. Experiment 61 shows that `LOD_12` in the middle renders with the wrong material when `LOD_34` follows it as the last entry, even though the same `LOD_12` renders correctly when the sequence ends on a single level (experiment 60). The problem is exclusively about the final entry.
 
 **2. Gap in the middle of the sequence**
-If a LOD level is missing from the middle of an otherwise contiguous sequence (e.g. `LOD_0`, `LOD_1`, `LOD_3`, `LOD_4` with `LOD_2` absent), all levels after the gap disappear entirely. Experiments 16, 26, 36, and 46 confirm this. A gap at the end is harmless; a gap anywhere earlier is fatal for everything that follows it.
+If a LOD level is missing before the end of the sequence, all levels after the gap disappear entirely. Experiments 16, 26, 36, and 46 confirm this for gaps in the middle. A gap at the very start is the worst case: if `LOD_0` is absent, the model appears not to initialize at all and nothing renders (experiments 56, 57). With multiple gaps, the results suggest Foundation stops at the first one, with subsequent gaps having no additional effect (experiment 59). A gap at the end of the sequence is harmless.
 
 **3. Overlapping definitions**
 When a LOD level is covered by both a combined range and an individual entry (e.g. `LOD_01` and `LOD_1` both present), only the first LOD in the sequence renders. Everything beyond it becomes invisible. Experiments 17, 18, 27, 28, 37, 38, 47, and 48 all fail this way.
@@ -93,13 +93,13 @@ When a LOD level is covered by both a combined range and an individual entry (e.
 
 Suffix names have no effect on any of the above. Whether mesh names are `LOD_0`, `LOD_0.001` (Blender's auto-generated duplicate suffix), or `LOD_0.Green`, the LOD behaviour is identical. Groups 10-18 and 30-38 produced matching results in every experiment, as did 20-28 and 40-48.
 
-Multiple meshes per LOD level are supported. Foundation renders all meshes assigned to a given LOD level, which is useful for composite models. This also holds in the failure cases -- when a configuration breaks, all meshes at that level fail together.
+Multiple meshes per LOD level are supported. Foundation renders all meshes assigned to a given LOD level, which is useful for composite models. This also holds in the failure cases: when a configuration breaks, all meshes at that level fail together.
 
 ### Practical takeaways for modders
 
-- Single LOD levels work. Combined ranges (`LOD_01`, `LOD_23`) work if used at the start, not the end.
+- Single LOD levels work. Combined ranges (`LOD_01`, `LOD_12`, `LOD_23`) work at any position in the sequence (including in the middle) as long as the last entry is a single level.
 - Never end your LOD sequence on a combined range.
-- Never leave a gap in the middle of your LOD sequence.
+- Never leave a gap before the end of your LOD sequence. LOD_0 must always be present; if it is absent, the model renders nothing at all.
 - Do not define a LOD level both as part of a combined range and as a standalone entry.
 - Suffix names are irrelevant to LOD resolution, so Blender's auto-generated `.001`, `.002` suffixes are harmless.
 - Multiple meshes per LOD level work and can be used freely.
@@ -108,11 +108,30 @@ Multiple meshes per LOD level are supported. Foundation renders all meshes assig
 
 | # | Configuration | Result | Notes |
 |---|---------------|--------|-------|
-| 50 | `LOD_012`, `LOD_3`, `LOD_4` |  |  |
-| 51 | `LOD_012`, `LOD_34` |  |  |
-| 52 | `LOD_0123`, `LOD_4` |  |  |
-| 53 | `LOD_01234` |  |  |
-| 54 | `LOD_01`, `LOD_234` |  |  |
-| 55 | `LOD_012`, `LOD_234` |  |  |
-| 56 | `LOD_2`, `LOD_3`, `LOD_4` (gap at beginning) |  |  |
-| 57 | `LOD_01`, `LOD_2`, `LOD_3` (gap at end with combined at beginning) |  |  |
+| 50 | `LOD_012`, `LOD_3`, `LOD_4` (Combined first three LODs, then singles at end.) | Correct | Renders all five LODs as expected. |
+| 51 | `LOD_012`, `LOD_34` (Combined first three LODs, then combined two LODs at end.) | Broken | LOD_012 renders as expected, but the LOD_34 renders incorrectly with the first LOD groups color (in this case Green). |
+| 52 | `LOD_0123`, `LOD_4` (Combined first four LODs, then single at end.) | Correct | Renders all five LODs as expected. |
+| 53 | `LOD_01234` (All LODs combined into one.) | Correct | Renders all five LODs as expected. But why would you do this? Just put the model object as a non-LOD under the model root so it always renders. |
+| 54 | `LOD_01`, `LOD_234` (Combined first two LODs, then combined last three LODs.) | Broken | Same issue as #51, where the second LOD group renders incorrectly with the first LOD group's color (in this case Green). |
+| 55 | `LOD_012`, `LOD_234` (Combined first three LODs, then combined last three LODs with overlap at LOD_2.) | Broken | First LOD_012 renders as expected, but the LOD234 does not render at all. Consistent with other broken cases where there is overlap in the LOD levels. |
+| 56 | `LOD_2`, `LOD_3`, `LOD_4` (Gap at start, then three singles at end.) | Broken | Nothing renders, which is consistent with other broken cases which has "gaps" before LOD elements. |
+| 57 | `LOD_1`, `LOD_2`, `LOD_3`, `LOD_4` (Gap at start, only LOD_0 missing.) | Broken | Same as #56, nothing renders. |
+| 58 | `LOD_01`, `LOD_2`, `LOD_3` (Combined first two LODs, then two singles and gap at end.) | Correct | Renders all LODs as expected. |
+| 59 | `LOD_0`, `LOD_2`, `LOD_4` (Multiple gaps: LOD_1 and LOD_3 missing.) | Broken | Only LOD_0 renders, while LOD_2 and LOD_4 are missing. |
+| 60 | `LOD_0`, `LOD_12`, `LOD_3`, `LOD_4` (Combined range in the middle.) | Correct | Surprisingly all LODs render as expected. |
+| 61 | `LOD_0`, `LOD_12`, `LOD_34` (Combined range in middle, combined at end.) | Broken | All LODs render, but with incorrect coloring. LOD_12 and LOD_34 both render with LOD_0's color (in this case Green). |
+
+**Observation:** The bonus tests extended the main series findings in two key areas. Combined ranges of any length work at the start of the sequence (experiments 50-53), and also in the middle (experiment 60). The constraint is not about position but exclusively about the final entry: if the sequence ends on a combined range, every level in the model renders with the first level's material, including any combined ranges placed correctly earlier that would otherwise work fine (experiment 61). The gap failure mode was also extended: a gap at the very start of the sequence causes nothing to render at all (experiments 56, 57), and multiple gaps appear to behave like a single gap, with Foundation stopping at the first one and ignoring everything after it (experiment 59).
+
+## Final conclusions
+
+The full set of experiments is consistent with the following interpretation of how Foundation processes LOD meshes. This is based on observed behavior only and not source access, so it is a best guess rather than confirmed fact.
+
+**Registration appears to be sequential from LOD_0.** The results suggest Foundation checks LOD levels in order from 0 upward, registering each level it finds a mesh for. When it reaches a level with no mesh, it seems to stop registering. Levels before the gap transition normally; levels after it are silently ignored. A gap at position 0 would explain why nothing registers and nothing renders. A gap at the end appears harmless because the sequence has already been fully registered by that point.
+
+**Material transitions appear to be determined by the final entry.** The results suggest Foundation computes material switch distances using the last registered entry as the upper bound. When the last entry is a combined range, this calculation appears to fail for the entire model: every level renders with the first level's material. This would explain why the failure is model-wide and not limited to the last entry: a combined range placed correctly in the middle still breaks when the sequence ends on a combined range. The fix is simple: always end the sequence on a single level.
+
+**Overlaps appear to cause early termination.** When a LOD level is covered by more than one entry, the results suggest Foundation treats the sequence as complete at the point of conflict. Only the first defined entry renders; everything after the conflicting definition becomes invisible.
+
+If this interpretation is correct, these three mechanisms account for every failure observed across all 48 experiments.
+

@@ -1,7 +1,7 @@
 {
   "LOD_MONUMENT": {
     "LOD_MONUMENT_NAME": "LOD traffic light monument",
-    "LOD_MONUMENT_DESC": "A test monument with 36 LOD experiments. Use the building part picker to switch between them, then move the camera in and out to observe how the model changes at different distances."
+    "LOD_MONUMENT_DESC": "A test monument with 48 LOD experiments. Use the building part picker to switch between them, then move the camera in and out to observe how the model changes at different distances."
   },
 
 
@@ -158,5 +158,56 @@
   "Experiment_48_PART": {
     "EXPERIMENT_48_PART_NAME": "Experiment 48 Part",
     "EXPERIMENT_48_PART_DESC": "LOD traffic light 48: tests multiple LOD_01, LOD_2, LOD_23, LOD_4 with suffix names. (Combined firsts, overlapping singles (LOD_2) + combined middles, then singles at end.)"
+  },
+
+
+
+  "Experiment_50_PART": {
+    "EXPERIMENT_50_PART_NAME": "Experiment 50 Part",
+    "EXPERIMENT_50_PART_DESC": "LOD traffic light 50: tests LOD_012, LOD_3, LOD_4. (Combined first three LODs, then singles at end.)"
+  },
+  "Experiment_51_PART": {
+    "EXPERIMENT_51_PART_NAME": "Experiment 51 Part",
+    "EXPERIMENT_51_PART_DESC": "LOD traffic light 51: tests LOD_012, LOD_34. (Combined first three LODs, then combined two LODs at end.)"
+  },
+  "Experiment_52_PART": {
+    "EXPERIMENT_52_PART_NAME": "Experiment 52 Part",
+    "EXPERIMENT_52_PART_DESC": "LOD traffic light 52: tests LOD_0123, LOD_4. (Combined first four LODs, then single at end.)"
+  },
+  "Experiment_53_PART": {
+    "EXPERIMENT_53_PART_NAME": "Experiment 53 Part",
+    "EXPERIMENT_53_PART_DESC": "LOD traffic light 53: tests LOD_01234. (All LODs combined into one.)"
+  },
+  "Experiment_54_PART": {
+    "EXPERIMENT_54_PART_NAME": "Experiment 54 Part",
+    "EXPERIMENT_54_PART_DESC": "LOD traffic light 54: tests LOD_01, LOD_234. (Combined first two LODs, then combined last three LODs.)"
+  },
+  "Experiment_55_PART": {
+    "EXPERIMENT_55_PART_NAME": "Experiment 55 Part",
+    "EXPERIMENT_55_PART_DESC": "LOD traffic light 55: tests LOD_012, LOD_234. (Combined first three LODs, then combined last three LODs with overlap at LOD_2.)"
+  },
+  "Experiment_56_PART": {
+    "EXPERIMENT_56_PART_NAME": "Experiment 56 Part",
+    "EXPERIMENT_56_PART_DESC": "LOD traffic light 56: tests LOD_2, LOD_3, LOD_4. (Gap at start, then three singles at end.)"
+  },
+  "Experiment_57_PART": {
+    "EXPERIMENT_57_PART_NAME": "Experiment 57 Part",
+    "EXPERIMENT_57_PART_DESC": "LOD traffic light 57: tests LOD_1, LOD_2, LOD_3, LOD_4. (Gap at start — only LOD_0 missing.)"
+  },
+  "Experiment_58_PART": {
+    "EXPERIMENT_58_PART_NAME": "Experiment 58 Part",
+    "EXPERIMENT_58_PART_DESC": "LOD traffic light 58: tests LOD_01, LOD_2, LOD_3. (Combined first two LODs, then two singles and gap at end.)"
+  },
+  "Experiment_59_PART": {
+    "EXPERIMENT_59_PART_NAME": "Experiment 59 Part",
+    "EXPERIMENT_59_PART_DESC": "LOD traffic light 59: tests LOD_0, LOD_2, LOD_4. (Multiple gaps — LOD_1 and LOD_3 missing.)"
+  },
+  "Experiment_60_PART": {
+    "EXPERIMENT_60_PART_NAME": "Experiment 60 Part",
+    "EXPERIMENT_60_PART_DESC": "LOD traffic light 60: tests LOD_0, LOD_12, LOD_3, LOD_4. (Combined range in the middle.)"
+  },
+  "Experiment_61_PART": {
+    "EXPERIMENT_61_PART_NAME": "Experiment 61 Part",
+    "EXPERIMENT_61_PART_DESC": "LOD traffic light 61: tests LOD_0, LOD_12, LOD_34. (Combined range in middle, combined at end.)"
   }
 }

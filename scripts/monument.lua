@@ -64,7 +64,11 @@ mod:registerAsset({
         "EXPERIMENT_54_PART",
         "EXPERIMENT_55_PART",
         "EXPERIMENT_56_PART",
-        "EXPERIMENT_57_PART"
+        "EXPERIMENT_57_PART",
+        "EXPERIMENT_58_PART",
+        "EXPERIMENT_59_PART",
+        "EXPERIMENT_60_PART",
+        "EXPERIMENT_61_PART"
     }
 })
 

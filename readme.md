@@ -4,9 +4,9 @@ A test mod for figuring out how Foundation handles LOD meshes from Blender FBX e
 
 ## TL;DR
 
-- Individual LOD levels work. Combined ranges (`LOD_01`, `LOD_23`) work if used at the start of the sequence, not the end.
-- Never end your LOD sequence on a combined range (`LOD_34` as the last entry breaks everything).
-- Never leave a gap in the middle of your LOD sequence (a gap at the end is fine).
+- Individual LOD levels work. Combined ranges (`LOD_01`, `LOD_12`, `LOD_23`) work at any position in the sequence (including the middle) as long as the last entry is a single level.
+- Never end your LOD sequence on a combined range (`LOD_34` as the last entry breaks everything, including other levels before it).
+- Never leave a gap before the end of your LOD sequence. LOD_0 must be present — if it's absent, nothing renders. A gap at the end is fine.
 - Do not define a LOD level both as part of a combined range and as a standalone entry.
 - Blender's auto-generated `.001`, `.002` suffixes on mesh names are harmless.
 - Multiple meshes per LOD level work fine.
@@ -15,7 +15,7 @@ Full findings and details: [metadata/findings.md#summary](metadata/findings.md#s
 
 ## What's in here
 
-36 building parts, each a "traffic light" configured with a different LOD setup. Traffic lights are a good test subject because LOD transitions are easy to spot visually at a distance.
+48 building parts, each a "traffic light" configured with a different LOD setup: 36 in the systematic series and 12 bonus tests. Traffic lights are a good test subject because LOD transitions are easy to spot visually at a distance.
 
 The experiments are split into four groups:
 
@@ -42,7 +42,7 @@ Each group tests the same nine configurations:
 
 ### The test models
 
-![All 36 test models in Blender](<metadata/Blender screenshot.png>)
+![All 48 test models in Blender](<metadata/Blender screenshot.png>)
 
 ## Results
 
